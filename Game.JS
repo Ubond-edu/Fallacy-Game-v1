@@ -1,3 +1,12 @@
+
+// Include the jQuery library
+if (!window.jQuery) {
+  let script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
+  document.head.appendChild(script);
+}
+
 if (!window.harlowe) {
   window.harlowe = { "State": State };
 }
@@ -22,6 +31,3 @@ window.startTimer = function (elementId, callback) {
 window.stopTimer = function (intervalId) {
   clearInterval(intervalId);
 };
-
-// Include the jQuery library
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
