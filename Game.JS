@@ -24,4 +24,4 @@ window.stopTimer = function (intervalId) {
 };
 
 // Include the jQuery library
-importScripts("https://code.jquery.com/jquery-3.6.0.min.js");
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
